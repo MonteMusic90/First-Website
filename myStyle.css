@@ -1,0 +1,76 @@
+*  {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.header{
+    padding:20px;
+    text-align:center;
+    font-size: 17px;
+}
+.navbar{
+    overflow:hidden;
+    background-color: black;
+}
+.navbar a{
+    color:magenta;
+    display:block;
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 180px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background-color:rgb(73, 43, 226);
+}
+.content{
+    float:left;
+    width:33.33%;
+    padding:15px;
+    color:aliceblue
+}
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+@media screen and (max-width:600px) {
+    .content{
+        width:100%
+    }
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+}
+.footer a{
+    font-size:22px ;
+    text-decoration: none;
+    color:magenta;
+    padding: 16px;
+}
+.footer a:hover{
+    background-color: rgb(0, 4, 255);
+}
+#music{
+    background-color:blueviolet;
+    border-color: black;
+    border-radius: 12px;
+}
+#video{
+    border-radius: 20px;
+}
+#about{
+    font-size: 19px;
+}
